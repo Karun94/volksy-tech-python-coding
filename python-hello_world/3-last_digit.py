@@ -5,15 +5,15 @@ last = number % 10
 if number < 0:                                                                                                      
     last = last - 10                                                                                                
 if last == 0:                                                                                                       
-    print("Last digit of {} is".format(number), last, "and is 0")                                                   
+        print("Last digit of {} is".format(number), last, "and is 0")                                                   
 else:                                                                                                               
-    if last > 5:                                                                                                    
+ if last > 5:                                                                                                    
         print(                                                                                                      
               "Last digit of {} is".format(number),                                                                 
               last,                                                                                                 
-              "and is greater than 5")                                                                              
-    else:                                                                                                           
-        print(                                                                                                      
-              "Last digit of {} is".format(number),                                                                 
-              last,                                                                                                 
+              "and is greater than 5")                                                                    
+ else:                                                                                                           
+        print(                                                                  
+              "Last digit of {} is".format(number),                                           
+              last,                                                                                               
               "and is less than 6 and not 0") 
